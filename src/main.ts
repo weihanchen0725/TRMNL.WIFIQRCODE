@@ -1,6 +1,7 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
+import qrWifiImage from './assets/images/QR_WiFi.png'
 import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -18,7 +19,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <p class="read-the-docs">
       Click on the Vite and TypeScript logos to learn more
     </p>
-    <img src="/src/assets/images/QR_Wifi.png" />
+    <img src="${qrWifiImage}" alt="WiFi QR Code" />
   </div>
 `
 
