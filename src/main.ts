@@ -1,11 +1,10 @@
 import './style.css'
 import qrWifiImage from './assets/images/QR_WiFi.png'
-import { setupCounter } from './counter.ts'
 
+// TRMNL optimized display - Simple QR Code viewer
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <img src="${qrWifiImage}" alt="WiFi QR Code" />
+  <div class="container">
+    <img src="${qrWifiImage}" alt="TRMNL WiFi QR Code" />
   </div>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
