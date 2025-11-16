@@ -1,8 +1,9 @@
 {
   "name": "trmnal-wifi",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://weihanchen0725.github.io/TRMNL.WIFIQRCODE",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
