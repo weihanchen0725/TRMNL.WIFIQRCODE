@@ -5,6 +5,8 @@
   /* TRMNL typical resolution is 800x480 (5:3) */
   --trmnl-width: 800px;
   --trmnl-height: 480px;
+  --trmnl-sm-width: 400px;
+  --trmnl-sm-height: 200px;
   --primary-color: #000000;
   --bg-color: #ffffff;
   --padding: 20px;
@@ -36,8 +38,8 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: var(--padding);
 }
 
@@ -46,8 +48,8 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   text-align: center;
 }
 
